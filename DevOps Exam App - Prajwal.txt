@@ -338,4 +338,5 @@ pipeline {
             archiveArtifacts artifacts: 'trivy-fs-report.html', allowEmptyArchive: true
         }
     }
+
 }
